@@ -3,7 +3,7 @@ Section: utils
 Priority: extra
 Maintainer: Opinsys Developers <dev@opinsys.fi>
 Build-Depends: debhelper (>= 8.0.0),
- libjansson-dev,
+ libjson0-dev,
  ruby-bundler
 Standards-Version: 3.9.3
 Homepage: http://github.com/opinsys/puavoadmins/
@@ -11,7 +11,7 @@ Homepage: http://github.com/opinsys/puavoadmins/
 Package: puavoadmins
 Architecture: any
 Depends: ${misc:Depends},
- libjansson4,
+ libjson0,
  ruby-puavobs (>= 0.15.0),
  ruby1.9.1
 Description: Puavo admin intergration
