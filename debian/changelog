@@ -1,3 +1,14 @@
+puavoadmins (0.3.0) trusty; urgency=medium
+
+  * New release
+  * Fix backwards compatibility with libjson 0.9
+  * Add helper function for getting owner fields
+  * Use json-c instead of jansson
+  * Use CFLAGS and LDFLAGS in Makefile
+  * Git(15396718086438f68a21a86b52a5892235ef7a84)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Tue, 01 Nov 2016 21:29:57 +0000
+
 puavoadmins (0.2.12) trusty; urgency=medium
 
   * New release
