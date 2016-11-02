@@ -1,3 +1,11 @@
+puavoadmins (0.3.1) trusty; urgency=medium
+
+  * New release
+  * Add pkg-config to build dependencies
+  * Git(4aeddcc9e49e06ccbf0ed37fd744b144c13a7d66)
+
+ -- Tuomas Räsänen <tuomasjjrasanen@tjjr.fi>  Wed, 02 Nov 2016 10:15:49 +0200
+
 puavoadmins (0.3.0) trusty; urgency=medium
 
   * New release
