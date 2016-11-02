@@ -4,6 +4,7 @@ Priority: extra
 Maintainer: Opinsys Developers <dev@opinsys.fi>
 Build-Depends: debhelper (>= 8.0.0),
  libjson0-dev,
+ pkg-config,
  ruby-bundler
 Standards-Version: 3.9.3
 Homepage: http://github.com/opinsys/puavoadmins/
