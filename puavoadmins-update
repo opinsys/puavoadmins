@@ -230,7 +230,8 @@ def diff_admins(old_admins, new_admins)
 end
 
 def update_org_json(new_org_json)
-  Tempfile.open("#{ORG_JSON_FILEPATH}.tmp") do |tmpfile|
+  dirname = File.dirname(ORG_JSON_FILEPATH)
+  Tempfile.open("#{ORG_JSON_FILEPATH}.tmp", dirname) do |tmpfile|
     tmpfile.write(new_org_json.to_json())
     tmpfile.chmod(0644)
     tmpfile.close
